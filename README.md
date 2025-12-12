@@ -1,41 +1,63 @@
 # Unit Converter
 
-<p align="center">
-  <a href="https://devtools.at/tools/unit-converter"><img src="https://img.shields.io/badge/Try%20Online-DevTools.at-blue?style=for-the-badge" alt="Try Online"></a>
-  <img src="https://img.shields.io/badge/TypeScript-Ready-3178C6?style=for-the-badge&logo=typescript" alt="TypeScript Ready">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License">
-</p>
-
-<p align="center"><b>Convert between measurement units</b></p>
-
----
+Unit Converter - Free online developer tool
 
 ## Online Tool
 
-**[Try Unit Converter online at DevTools.at →](https://devtools.at/tools/unit-converter)**
+Use this tool online at **[DevTools.at](https://devtools.at/tools/unit-converter)** - Free, fast, and no registration required!
 
-- No registration needed
-- Works instantly in your browser  
-- Your data never leaves your device
-- Available in 20+ languages
-- Free forever
+## Installation
 
----
+### npm
+
+```bash
+npm install @devtools-at/unit-converter
+```
+
+### Usage
+
+```javascript
+import { process, encode, decode } from '@devtools-at/unit-converter';
+
+// Process input
+const result = process("your input here");
+
+// Encode
+const encoded = encode("data to encode");
+
+// Decode
+const decoded = decode("data to decode");
+```
+
+## Features
+
+- Simple, clean API
+- TypeScript support with full type definitions
+- No external dependencies
+- Works in Node.js and browsers
+
+## Online Version
+
+For a full-featured version with a beautiful UI, visit:
+**[https://devtools.at/tools/unit-converter](https://devtools.at/tools/unit-converter)**
 
 ## Related Tools
 
-| Tool | Description |
-|------|-------------|
-| [JSON Formatter](https://devtools.at/tools/json-formatter) | Format JSON |
-| [Base64 Encoder](https://devtools.at/tools/base64) | Encode/decode Base64 |
-| [Hash Generator](https://devtools.at/tools/hash-generator) | Generate hashes |
+Check out our other developer tools at [DevTools.at](https://devtools.at):
+- 100+ free developer tools
+- No registration required
+- Privacy-focused (client-side processing)
 
-[**Browse all 100+ free developer tools →**](https://devtools.at)
+## Links
 
----
+- [Online Tool](https://devtools.at/tools/unit-converter)
+- [npm Package](https://www.npmjs.com/package/@devtools-at/unit-converter)
+- [All DevTools.at Tools](https://devtools.at)
 
 ## License
 
 MIT License
 
-<p align="center"><sub><a href="https://devtools.at">DevTools.at</a> - Free Online Developer Tools</sub></p>
+---
+
+Made with love by [DevTools.at](https://devtools.at)
